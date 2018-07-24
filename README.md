@@ -47,7 +47,7 @@ lighthouse <url> --view
 
 #### Test output examples
 
-![alt text](https://github.com/redbadger/Puppeteer-lighthouse-jest/screenshots/Screen Shot 2018-07-24 at 10.41.56.png)
+![Typical test results](https://github.com/redbadger/Puppeteer-lighthouse-jest/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.41.56.png?raw=true)
 
 
 
