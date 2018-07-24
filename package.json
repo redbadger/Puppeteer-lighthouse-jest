@@ -5,7 +5,13 @@
   "scripts": {
     "test": "jest --verbose"
   },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.7.0"
+  },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
     "jest": "^23.4.1",
     "lighthouse": "^3.0.3",
     "puppeteer": "^1.6.0"
