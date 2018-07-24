@@ -44,3 +44,10 @@ npm test
 ```bash
 lighthouse <url> --view
 ```
+
+#### Test output examples
+
+![alt text](https://github.com/redbadger/Puppeteer-lighthouse-jest/screenshots/Screen Shot 2018-07-24 at 10.41.56.png)
+
+
+
