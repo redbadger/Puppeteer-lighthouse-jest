@@ -30,6 +30,12 @@ sudo npm install -g n
 sudo n stable
 ```
 
+Or, using NVM:
+
+```bash
+nvm install node --reinstall-packages-from=node
+```
+
 ### Set the url to test against
 
 In the test.js file, update the following variable to reflect your chosen url
