@@ -42,12 +42,12 @@ module.exports = {
 
     async getLighthouseResult(lhr, property) {
         const jsonProperty = new Map()
-            .set('accessibility', await lhr.lhr.categories.accessibility.score)
-            .set('performance', await lhr.lhr.categories.performance.score)
-            .set('progressiveWebApp', await lhr.lhr.categories.pwa.score)
-            .set('bestPractices', await lhr.lhr.categories["best-practices"].score)
-            .set('seo', await lhr.lhr.categories.seo.score)
-            .set('pageSpeed', await lhr.lhr.audits["speed-index"].score);
+            .set('accessibility', await lhr.lhr.categories.accessibility.score * 100)
+            .set('performance', await lhr.lhr.categories.performance.score * 100)
+            .set('progressiveWebApp', await lhr.lhr.categories.pwa.score * 100)
+            .set('bestPractices', await lhr.lhr.categories["best-practices"].score * 100)
+            .set('seo', await lhr.lhr.categories.seo.score * 100)
+            .set('pageSpeed', await lhr.lhr.audits["speed-index"].score * 100);
 
 
         let result = await jsonProperty.get(property);

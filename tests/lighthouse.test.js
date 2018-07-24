@@ -29,21 +29,21 @@ describe('Google Lighthouse audit tests', async () => {
     it('passes an accessibility audit through Lighthouse', async () => {
         const accessibilityScore = await commonMethods.getLighthouseResult(lhr, 'accessibility');
         // Tester can set their own thresholds for pass marks
-        expect(accessibilityScore).toBeGreaterThanOrEqual(0.90);
+        expect(accessibilityScore).toBeGreaterThanOrEqual(90);
     });
 
     // General performance overview score
     it('passes a performance audit through Lighthouse', async () => {
         const performanceScore = await commonMethods.getLighthouseResult(lhr, 'performance');
         // Tester can set their own thresholds for pass marks
-        expect(performanceScore).toBeGreaterThan(0.75);
+        expect(performanceScore).toBeGreaterThan(75);
     });
 
     // General best practice for websites overview score
     it('passes a best practice audit through Lighthouse', async () => {
         const bestPracticeScore = await commonMethods.getLighthouseResult(lhr, 'bestPractices');
         // Tester can set their own thresholds for pass marks
-        expect(bestPracticeScore).toBeGreaterThanOrEqual(0.75);
+        expect(bestPracticeScore).toBeGreaterThanOrEqual(75);
     });
 
     // These checks validate the aspects of a Progressive Web App,
@@ -51,13 +51,13 @@ describe('Google Lighthouse audit tests', async () => {
     it('passes a Progressive Web App audit through Lighthouse', async () => {
         const progressiveWebAppScore = await commonMethods.getLighthouseResult(lhr, 'progressiveWebApp');
         // Tester can set their own thresholds for pass marks
-        expect(progressiveWebAppScore).toBeGreaterThanOrEqual(0.75);
+        expect(progressiveWebAppScore).toBeGreaterThanOrEqual(75);
     });
 
     //These checks ensure that your page is optimized for search engine results ranking.
     it('passes an SEO audit through Lighthouse', async () => {
         const SEOScore = await commonMethods.getLighthouseResult(lhr, 'seo');
-        expect(SEOScore).toBeGreaterThanOrEqual(0.75);
+        expect(SEOScore).toBeGreaterThanOrEqual(75);
     });
 
     // Low-contrast text is difficult or impossible for many users to read
@@ -76,7 +76,7 @@ describe('Google Lighthouse audit tests', async () => {
     // Speed Index shows how quickly the contents of a page are visibly populated.
     it('passes the set threshold for page load speed', async () => {
         const pageSpeedScore = await commonMethods.getLighthouseResult(lhr, 'pageSpeed');
-        expect(pageSpeedScore).toBeGreaterThanOrEqual(0.75);
+        expect(pageSpeedScore).toBeGreaterThanOrEqual(75);
     });
 
     // Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names
