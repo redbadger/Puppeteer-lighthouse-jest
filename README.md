@@ -54,6 +54,6 @@ lighthouse <url> --view
 
 ##### Failing test example
 
-![Failing test output](https://github.com/redbadger/Puppeteer-lighthouse-jest/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.42.26.png?raw=true)
+![Failing test output](https://github.com/redbadger/Puppeteer-lighthouse-jest/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2011.33.34.png?raw=true)
 
 
