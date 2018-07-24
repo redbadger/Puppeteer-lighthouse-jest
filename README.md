@@ -47,7 +47,13 @@ lighthouse <url> --view
 
 #### Test output examples
 
+##### Typical test output
+
 ![Typical test results](https://github.com/redbadger/Puppeteer-lighthouse-jest/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.41.56.png?raw=true)
 
+
+##### Failing test example
+
+![Failing test output](https://github.com/redbadger/Puppeteer-lighthouse-jest/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.42.26.png?raw=true)
 
 
