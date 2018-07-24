@@ -19,6 +19,17 @@ A starter suite of tests utilising Puppeteer to drive non-functional tests throu
 - Tab Index check no values > 0
 - Logical tab order checck
 
+## Prerequisites
+Node version 7.10.1 or greater
+
+If you are running an earlier version of node, you can update with the following commands:
+
+```bash
+sudo npm cache clean -f 
+sudo npm install -g n
+sudo n stable
+```
+
 ### Set the url to test against
 
 In the test.js file, update the following variable to reflect your chosen url
