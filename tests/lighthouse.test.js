@@ -20,7 +20,7 @@ afterAll(() => {
 describe('Google Lighthouse audit tests', async () => {
     beforeAll(async () => {
         // the url to be audited
-        const url = '<Your URL goes here';
+        const url = '<enter your url here>';
         // kick off a Lighthouse audit on the above url
         lhr = await commonMethods.lighthouseAudit(browser, url);
     });
