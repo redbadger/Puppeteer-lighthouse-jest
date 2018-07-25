@@ -27,7 +27,7 @@ If you are running an earlier version of node, you can update with the following
 ```bash
 sudo npm cache clean -f
 sudo npm install n
-(or 'sudo npm install -g n' if you wish to update node globally)
+(or 'sudo npm install -g n' should you wish to update node globally)
 sudo n stable
 ```
 
