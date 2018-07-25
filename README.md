@@ -25,8 +25,9 @@ Node version 7.10.1 or greater
 If you are running an earlier version of node, you can update with the following commands:
 
 ```bash
-sudo npm cache clean -f 
-sudo npm install -g n
+sudo npm cache clean -f
+sudo npm install n
+(or 'sudo npm install -g n' if you wish to update node globally)
 sudo n stable
 ```
 
